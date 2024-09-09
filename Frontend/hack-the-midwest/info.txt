@@ -36,10 +36,10 @@ Functions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functio
               ES Modules and Export Syntax: https://developer.mozilla.org/docs/Web/JavaScript/Guide/Modules
 -----------------------------------------------------------------------------------------------------
 React Crash course - Building a UI
-' React core concepts '
+        React core concepts
 There are three core concepts of React that youll need to be familiar with to start building React applications. These are:
-  '''Components - https://nextjs.org/learn/react-foundations/building-ui-with-components
+  Components - https://nextjs.org/learn/react-foundations/building-ui-with-components
   Props - https://nextjs.org/learn/react-foundations/displaying-data-with-props
-  State - https://nextjs.org/learn/react-foundations/updating-state'''
+  State - https://nextjs.org/learn/react-foundations/updating-state
   
   
