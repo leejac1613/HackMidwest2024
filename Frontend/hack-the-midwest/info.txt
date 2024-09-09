@@ -1,0 +1,45 @@
+make the website interactive  - if you want to have prebuilt libraries to choose from use Next.js
+nextjs.org
+---------------------------------------------------------------------------------------------------
+React uses JSX but needs to be compiled into js to be interpreted USE BABEL
+Using Babel https://babeljs.io/
+use JSX in js seamlessly adding another method to manipulate the js
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/jsx">
+---------------------------------------------------------------------------------------------------
+Comparing the declarative React code you just wrote:
+# index.html
+<script type="text/jsx">
+  const domNode = document.getElementById("app")
+  const root = ReactDOM.createRoot(domNode);
+  root.render(<h1>Develop. Preview. Ship.</h1>);
+</script>
+
+to the imperative JavaScript code you wrote in the previous section:
+# index.html
+<script type="text/javascript">
+  const app = document.getElementById('app');
+  const header = document.createElement('h1');
+  const text = 'Develop. Preview. Ship.';
+  const headerContent = document.createTextNode(text);
+  header.appendChild(headerContent);
+  app.appendChild(header);
+</script>
+---------------------------------------------------------------------------------------------------
+Functions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+  Arrow Functions: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+    Objects: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
+      Array and Array Methods: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array
+        Object Destructing: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+          Template Literals: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Template_literals
+            Ternary Operators: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
+              ES Modules and Export Syntax: https://developer.mozilla.org/docs/Web/JavaScript/Guide/Modules
+-----------------------------------------------------------------------------------------------------
+React Crash course - Building a UI
+' React core concepts '
+There are three core concepts of React that youll need to be familiar with to start building React applications. These are:
+  '''Components - https://nextjs.org/learn/react-foundations/building-ui-with-components
+  Props - https://nextjs.org/learn/react-foundations/displaying-data-with-props
+  State - https://nextjs.org/learn/react-foundations/updating-state'''
+  
+  
