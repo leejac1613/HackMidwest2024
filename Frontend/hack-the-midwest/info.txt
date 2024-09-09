@@ -1,3 +1,14 @@
+Frameworks:
+
+  Vercel: build, scale, and secure your Next.js apps.
+
+    Nextjs: handles the tooling and configuration needed for React, and provides additional structure, features, and 
+    optimizations for your application.
+
+      React:  React JS focuses on rendering towards the DOM. Next. js supports Server-Side Rendering (SSR), whereas React.         js supports client-side rendering, which improves the application performance.
+
+        Babel: To transpile the JSX code into simple React functions that can be understood by browsers.
+--------------------------------------------------------------------------------------------------
 make the website interactive  - if you want to have prebuilt libraries to choose from use Next.js
 nextjs.org
 ---------------------------------------------------------------------------------------------------
