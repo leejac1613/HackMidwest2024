@@ -1,1 +1,0 @@
-# HackMidwest2024
