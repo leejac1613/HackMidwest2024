@@ -1,19 +1,19 @@
 
-import Header from "./Header";
-import Footer from "./Footer";
-import Food from "./Food";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import Food from "./Components/Food";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Cards from "./Card";
-import Student from "./Student";
-
+import Cards from "./Components/Card";
+import Student from "./Components/Student";
+import NavBar from "./Components/NavBar";
+import SubmitUser from "./Components/SubmitUser";
 function App() {
   return(
     <>
-      <Header/>
-      <Food/>
-      <Student name="Jacob" age = {24} isStudent = {false}/>
-      <Student/>
+      <NavBar/>
+
       <Cards/>
+      <SubmitUser/>
       <Footer/>
     </>
   );
